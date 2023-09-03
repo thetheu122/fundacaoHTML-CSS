@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+}
+
+@font-face {
+    font-family: 'friends1';
+    src: url(../assets/fonts/friends1.woff2);
+}
+
+@font-face {
+    font-family: 'friends2';
+    src: url(../assets/fonts/friends2.woff2);
+}
+
+
+@font-face {
+    font-family: 'friends3';
+    src: url(../assets/fonts/friends3.woff2);
+}
+
+
+@font-face {
+    font-family: 'friends4';
+    src: url(../assets/fonts/friends4.woff2);
+}
+
+
+@font-face {
+    font-family: 'friends5';
+    src: url(../assets/fonts/friends5.woff2);
+}
+
+
+@font-face {
+    font-family: 'friends6';
+    src: url(../assets/fonts/friends6.woff2);
+}
+
+
+@font-face {
+    font-family: 'friends7';
+    src: url(../assets/fonts/friends7.woff2);
+}
+
+
+@font-face {
+    font-family: 'friends8';
+    src: url(../assets/fonts/friends8.woff2);
+}
+

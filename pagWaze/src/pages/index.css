@@ -1,0 +1,303 @@
+body{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ .cabecalho a {
+    font: 15px 'font3';
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+    height: 30px;
+}
+.lado-esquerdo-cabecalho{
+    display: flex;
+    align-items: flex-start;
+}
+.lado-esquerdo-cabecalho a {
+    margin-top: 5px;
+    margin-left: 35px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.cabecalho button {
+    margin-left: 40px;
+    width: 100px;
+    height: 40px;
+    border: black solid 2px;
+    border-radius: 40px;
+    padding: 10px;
+    color: #000;
+    cursor: pointer;
+    background-color: #fff;
+    font:15px 'font3' ;
+}
+
+.logo{
+    width: 35px;
+    cursor: pointer;
+}
+.lado-direito-cabecalho a {
+    margin-top: 5px;
+    margin-left: 35px;
+    margin-right:20px;
+    text-decoration: none;
+    color: black;
+}
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+  }
+
+.mae {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-width: 200px;
+}
+
+
+.sessao2 {
+    display: flex;
+    align-items: center;
+    padding-left:40px;
+    background-color: #f2f4f7;
+    height: 20vh;
+    width: 80%;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.sessao2 h1 {
+    font-size: 54px;
+    line-height: 1.05;
+    font-family: 'font3';
+    font-weight: 500;
+}
+
+
+.imagem img {
+    position: relative;
+    width: 15vw;
+    top: 100px;
+}
+
+
+  
+.cards img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .cards  h1 {
+    font: 1.40rem "font3";
+    margin-bottom: 20px;
+
+  }
+  
+  .cards p {
+    font: 16px "font2";
+    margin-bottom: 20px;
+    font-weight: 100;
+  }
+  
+  .cards a {
+    color: black;
+    text-decoration: none;
+    font-weight: 100;
+  }
+  
+  .cards button {
+    background-color: #fff;
+    font: 20px "font3";
+  
+    padding: 10px 30px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  
+  #container1 {
+    width: 40%;
+    height: 30%;
+    background-color: #fce354;
+    margin: 20px;
+    padding: 80px 60px 80px 60px;
+    border-radius: 10px;
+  }
+  
+  #container2 {
+    width: 40%;
+    height: 30%;
+    background-color: #ff8f00;
+  
+    margin: 20px;
+    padding: 80px 60px 80px 60px;
+    border-radius: 10px;
+  }
+  
+  #container3 {
+    width: 40%;
+    height: 30%;
+    background-color: #3cf;
+  
+    margin: 20px;
+    padding: 80px 60px 80px 60px;
+    border-radius: 10px;
+  }
+  
+  #container4 {
+    width: 40%;
+    height: 30%;
+    background-color: #1ee592;
+  
+    margin: 20px;
+    padding: 80px 60px 80px 60px;
+    border-radius: 10px;
+  }
+  
+  #container5 {
+    width: 83%;
+    height: 450px;
+    background-color: #963eff;
+  
+    margin: 20px;
+    padding: 80px 60px 80px 60px;
+    border-radius: 10px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  @keyframes show {
+    0% {
+      opacity: 0;
+      margin-top: 23%;
+    }
+  
+    100% {
+      opacity: 1;
+      margin-top: 0%;
+    }
+  }
+  
+  @keyframes big {
+    0% {
+      opacity: 0;
+      margin-top: 13%;
+    }
+  
+    100% {
+      opacity: 1;
+      margin-top: 0%;
+    }
+  }
+  
+  .content {
+    position: relative;
+    animation-name: show;
+    animation-duration: 4s;
+  }
+  
+  .content-big {
+    position: relative;
+    animation-name: big;
+    animation-duration: 4s;
+  }
+  
+
+
+
+
+
+@keyframes show {
+    0% {
+      opacity: 0;
+      margin-top: 23%;
+    }
+  
+    100% {
+      opacity: 1;
+      margin-top: 0%;
+    }
+  }
+  
+  @keyframes big {
+    0% {
+      opacity: 0;
+      margin-top: 13%;
+    }
+  
+    100% {
+      opacity: 1;
+      margin-top: 0%;
+    }
+  }
+
+
+  @media(max-width:900px){
+
+    .cards{
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+
+    #container1{
+      width: 90vw;
+      margin-right: -300px; 
+      font-size: 1px;
+    }
+
+    #container2{
+      width: 90vw; 
+      font-size: 1px;
+      padding-left: -50px;
+      padding-top: -50px;
+    }
+
+    #container3{
+      width: 90vw; 
+      font-size: 1px;
+    }
+
+    #container4{
+      width: 90vw; 
+      font-size: 1px;
+    }
+
+    #container5{
+      width: 90vw; 
+      font-size: 1px;
+    }
+
+    .sessao2{
+
+    }
+
+    .sessao2 h1{
+      font-size: 35px!important;
+    }
+
+    .lado-esquerdo-cabecalho a {
+      display: none;
+    }
+    .lado-direito-cabecalho a{
+      display: none;
+    }
+  }
+  

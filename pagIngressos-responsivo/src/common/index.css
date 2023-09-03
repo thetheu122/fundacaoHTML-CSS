@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:'ingresso1';
+    src: url(../assets/fonts/ingresso1.woff2);
+}
+
+@font-face {
+    font-family:'ingresso2';
+    src: url(../assets/fonts/ingresso2.woff2);
+}
+
+@font-face {
+    font-family:'ingresso3';
+    src: url(../assets/fonts/ingresso3.woff2);
+}
